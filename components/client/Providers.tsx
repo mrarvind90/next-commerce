@@ -13,8 +13,16 @@ export default function CartProvider({
 			mode="payment"
 			cartMode="client-only"
 			stripe={process.env.NEXT_PUBLIC_STRIPE_KEY as string}
-			successUrl="http://localhost:3000/stripe/success"
-			cancelUrl="http://localhost:3000/stripe/error"
+			successUrl={
+				process.env.ENVIRONMENT === 'local'
+					? 'http://localhost:3000/stripe/success'
+					: 'https://next-commerce-jpsu.vercel.app/stripe/success'
+			}
+			cancelUrl={
+				process.env.ENVIRONMENT === 'local'
+					? 'http://localhost:3000/stripe/error'
+					: 'https://next-commerce-jpsu.vercel.app/stripe/error'
+			}
 			currency="USD"
 			billingAddressCollection={false}
 			shouldPersist={true}

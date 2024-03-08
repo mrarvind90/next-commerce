@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { JSX } from 'react';
 
+export const dynamic: string = 'force-dynamic';
+
 export default async function ProductListingPage(): Promise<JSX.Element> {
 	const data: ProductDetailsSummary[] =
 		await getListOfProductsByCategory('*');

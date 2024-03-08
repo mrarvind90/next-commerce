@@ -7,6 +7,8 @@ import type { ProductDetails } from '@/types';
 import { Star, Truck } from 'lucide-react';
 import type { JSX } from 'react';
 
+export const dynamic: string = 'force-dynamic';
+
 export default async function ProductDetailsPage({
 	params,
 }: {
