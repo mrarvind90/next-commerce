@@ -15,7 +15,6 @@
 		"url": "git+ssh://git@github.com/mrarvind90/next-commerce.git"
 	},
 	"keywords": [
-		"freeCodeCamp",
 		"typescript",
 		"nextjs",
 		"sanity.io",
