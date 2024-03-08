@@ -1,5 +1,5 @@
 import { getListOfProductsByCategory } from '@/lib/sanity/queries';
-import { ProductDetailsSummary } from '@/studio/types/NextCommerce';
+import type { ProductDetailsSummary } from '@/types';
 import upperFirst from 'lodash/upperFirst';
 import Image from 'next/image';
 import Link from 'next/link';

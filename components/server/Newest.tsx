@@ -1,5 +1,5 @@
 import { getNewestProducts } from '@/lib/sanity/queries';
-import type { NewestProduct } from '@/studio/types/NextCommerce';
+import type { NewestProduct } from '@/types';
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';

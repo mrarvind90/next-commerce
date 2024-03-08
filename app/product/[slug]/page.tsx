@@ -3,7 +3,7 @@ import CheckoutNow from '@/components/client/CheckoutNow';
 import ImageGallery from '@/components/client/ImageGallery';
 import { Button } from '@/components/ui/button';
 import { getProductDetails } from '@/lib/sanity/queries';
-import type { ProductDetails } from '@/studio/types/NextCommerce';
+import type { ProductDetails } from '@/types';
 import { Star, Truck } from 'lucide-react';
 import type { JSX } from 'react';
 

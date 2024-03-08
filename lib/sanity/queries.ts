@@ -4,7 +4,7 @@ import {
 	NewestProduct,
 	ProductDetails,
 	ProductDetailsSummary,
-} from '@/studio/types/NextCommerce';
+} from '@/types';
 import upperFirst from 'lodash/upperFirst';
 import { groq } from 'next-sanity';
 

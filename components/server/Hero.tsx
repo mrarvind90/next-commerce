@@ -1,6 +1,6 @@
 import { urlFor } from '@/lib/sanity/config';
 import { getHeroImages } from '@/lib/sanity/queries';
-import type { HeroImages } from '@/studio/types/NextCommerce';
+import { HeroImages } from '@/types';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { JSX } from 'react';
